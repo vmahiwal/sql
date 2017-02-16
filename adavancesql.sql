@@ -7,8 +7,6 @@ select
     when 'orange-juice'     then 'drink'
     when 'soda'             then 'drink'
     when 'blt'              then 'sandwich'
-    when 'grilled-cheese'   then 'sandwich'
-    when 'tikka-masala'     then 'dinner'
     else 'other'
   end as category, round(1.0 * sum(amount_paid) /
     (select sum(amount_paid) from order_items) * 100, 2) as pct
