@@ -5,7 +5,6 @@ select
     when 'kale-smoothie'    then 'smoothie'
     when 'banana-smoothie'  then 'smoothie'
     when 'orange-juice'     then 'drink'
-    when 'soda'             then 'drink'
     when 'blt'              then 'sandwich'
     else 'other'
   end as category, round(1.0 * sum(amount_paid) /
