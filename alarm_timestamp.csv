@@ -1,4 +1,4 @@
-asset,devicename,alarm_id,device_id,"FROM_UNIXTIME(start_ts / 1000)","FROM_UNIXTIME(clear_ts / 1000)","FROM_UNIXTIME(end_ts / 1000)",severity,status,type,ack_duration,alarm_duration
+asset,devicename,alarm_id,device_id,start_ts,clear_ts,end_ts,severity,status,type,ack_duration,alarm_duration
 Factory1,F1_Device1,941224c0-3116-11ea-9fd6-0326052de538,613da120-1bde-11ea-ab3e-6b9cad39d6c5,"2020-01-07 11:56:03.1480","2020-01-07 11:56:23.1960","2020-01-07 11:56:03.1480","1970-01-01 05:30:00.0000",CLEARED_UNACK,Temperature,0,0
 Factory1,F1_Device2,4a2519b0-310e-11ea-9fd6-0326052de538,7f5ad3d0-1bde-11ea-ab3e-6b9cad39d6c5,"2020-01-07 10:56:43.1460","2020-01-07 10:57:03.2500","2020-01-07 10:56:43.1460","2020-01-07 11:58:32.4610",CLEARED_ACK,Voltage,3709315,0
 Factory1,F1_Device2,544419b0-3108-11ea-9fd6-0326052de538,7f5ad3d0-1bde-11ea-ab3e-6b9cad39d6c5,"2020-01-07 10:14:03.1470","2020-01-07 10:14:23.1460","2020-01-07 10:14:03.1470","2020-01-07 11:58:56.2410",CLEARED_ACK,Temperature,6293094,0
